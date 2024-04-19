@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Ranni | Income Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Income Counter</h1>
+
+ <div class="container">
+       
+        <div class="regular">
+            <h2>Number of regular shifts:</h2>
+            <input class="input" type="number" id="regularInput">
+            <button id="regularButton"><strong>ADD</strong></button>
+            <div class="display" id="regularShiftDisplay"></div>
+            <div class="display" id="regularCashDisplay"></div>
+        </div>
+        <div class="libero">
+            <h2>Number of libero shifts:</h2>
+            <input class="input" type="number" id="liberoInput">
+            <button id="liberoButton"><strong>ADD</strong></button>
+            <div class="display" id="liberoShiftDisplay"></div>
+            <div class="display" id="liberoCashDisplay"></div>
+        </div>
+    
+    <div class="coaching">
+        <h2>Number of coaching shifts:</h2>
+        <input class="input" type="number" id="coachingInput">
+        <button id="coachingButton"><strong>ADD</strong></button>
+        <div class="display" id="coachingShiftDisplay"></div>
+        <div class="display" id="coachingCashDisplay"></div>
+    </div>
+    <div class="totaldisplay">
+        <h2>Total shifts:</h2>
+        <div class="display" id="totalShiftDisplay"></div>
+        <h2>Total Cash 😎</h2>
+        <div class="display" id="totalCashDisplay"></div>
+    </div>
+    
+</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
